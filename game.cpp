@@ -242,7 +242,7 @@ void Game::run(HWND hwnd)
 			{
 				// Print message
 				//_snprintf_s(buffer, BUF_SIZE, "test %d ", (int)fps);
-				_snprintf_s(buffer, BUF_SIZE, "<Press space to start>");
+				_snprintf_s(buffer, BUF_SIZE, "<Press space key to start>");
 				dxFont.printC(buffer, GAME_WIDTH/2, GAME_HEIGHT/2);
 
 				_snprintf_s(buffer, BUF_SIZE, "My Haunted Mansion");
